@@ -9,6 +9,7 @@
     "copy": "npm run copy-img && npm run copy-font",
     "copy-img": "cp -r node_modules/uswds/assets/img/* img/",
     "copy-font": "cp node_modules/uswds/assets/fonts/* font/",
+    "lint": "scss-lint -c .scss-lint.yml",
     "test": "npm run test",
     "watch": "watch 'npm run build' ./src"
   },
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "node-sass": "^3.4.2",
+    "sass-lint": "^1.4.0",
     "watch": "^0.17.1"
   }
 }
