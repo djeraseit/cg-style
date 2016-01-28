@@ -16,6 +16,11 @@ table {
       flex-flow: column wrap;
       flex-wrap: wrap;
 
+      .grow {
+        flex-grow: 100000;
+        height: auto;
+      }
+
       &:last-child {
         td {
           border-left-width: 0;
@@ -38,7 +43,7 @@ table {
       display: flex;
       flex-direction: column;
       flex-grow: 1;
-      height: 21rem;
+      height: 18rem;
       justify-content: center;
       margin: 0;
       width: 0;
@@ -75,7 +80,7 @@ table {
       display: flex;
       flex-direction: column;
       flex-grow: 1;
-      height: 21rem;
+      height: 18rem;
       justify-content: center;
 
       &:last-child {

@@ -2313,6 +2313,12 @@ table {
       -webkit-flex-wrap: wrap;
           -ms-flex-wrap: wrap;
               flex-wrap: wrap; }
+      table tbody tr .grow {
+        -webkit-box-flex: 100000;
+        -webkit-flex-grow: 100000;
+            -ms-flex-positive: 100000;
+                flex-grow: 100000;
+        height: auto; }
       table tbody tr:last-child td {
         border-left-width: 0; }
         @media screen and (min-width: 600px) {
@@ -2338,7 +2344,7 @@ table {
       -webkit-flex-grow: 1;
           -ms-flex-positive: 1;
               flex-grow: 1;
-      height: 21rem;
+      height: 18rem;
       -webkit-box-pack: center;
       -webkit-justify-content: center;
           -ms-flex-pack: center;
@@ -2382,7 +2388,7 @@ table {
       -webkit-flex-grow: 1;
           -ms-flex-positive: 1;
               flex-grow: 1;
-      height: 21rem;
+      height: 18rem;
       -webkit-box-pack: center;
       -webkit-justify-content: center;
           -ms-flex-pack: center;
